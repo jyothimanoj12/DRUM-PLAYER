@@ -6,8 +6,8 @@ for (var i=0;i<noofbuttons;i++){
         var button=this.innerHTML;
         switch (button) {
             case "w":
-               var audio = new Audio("sounds/crash.mp3");
-              audio.play();
+               var audio = new Audio("sounds/cra.mp3");
+                audio.play();
                 break;
             case "a":
                 var audio = new Audio('sounds/kick-bass.mp3');
